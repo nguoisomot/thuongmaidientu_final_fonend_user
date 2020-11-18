@@ -1,0 +1,126 @@
+.content_router-nganh_hang{
+  margin-bottom: 10px;
+}
+.link-trang_chu::after{
+  content:"  〉"
+}
+.route_link{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 1270px;
+  margin: auto;
+  /* padding: 10px 10px; */
+}
+.container-nganh_hang{
+  width: 1270px;
+  margin: auto;
+  background-color: white;
+}
+.tai_khoan{
+  width: 1270px;
+  margin: auto;
+}
+.route-tai_khoan{
+  width: 250px;
+  margin-right: 17px;
+}
+
+.list-route-tai_khoan{
+  list-style: none;
+}
+.name-tai_khoan{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 7px;
+  margin-bottom: 9px;
+}
+.name-tai_khoan>img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 17px;
+}
+.name-tai_khoan>div>p{
+  font-size: 13px;
+}
+.route_item>.link-router_item{
+  padding: 7px 18px;
+  display: flex;
+  align-items: center;
+}
+.link-router_item>span{
+  font-size: 13px;
+}
+.route_item>.link-router_item:hover{
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+  background-color: rgb(239, 239, 239);
+}
+.route_item>.link-router_item>svg{
+  font-size: 24px;
+  color: rgb(155, 155, 155);
+  margin-right: 22px;
+}
+
+.tai_khoan{
+  display: flex;
+}
+.thong_tin_tai_khoan{
+  width: 973px;
+}
+.container-info_tai_khoan{
+  padding: 30px 20px;
+  background-color: white;
+    border-radius: 5px;
+}
+.form-info_tai_khoan{
+
+}
+.form-info_tai_khoan>div{
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+
+}
+.form-info_tai_khoan>div>label{
+  width: 110px; 
+  font-size: 14px;
+}
+.form-info_tai_khoan>div>div>input:focus{
+   border-color: rgb(102, 175, 237);
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+      outline: none;
+}
+.form-info_tai_khoan>.info_tai_khoan-input>div>input{
+  padding: 6px 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+   width: 464px;
+}
+.info_tai_khoan-sex>div>span{
+  display: inline-block;
+  margin: 0 25px 0 5px;
+}
+.btn-update_tai_khoan{
+  width: 165px;
+  line-height: 40px;
+  background-color: #fdd835;
+  border: 0;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.doi_mat_khau>div>div>input{
+  font-weight: 300 !important;
+}
+.btn-update_tai_khoan:focus{
+    outline: none;
+}
+.btn-update_tai_khoan:hover{
+  background-color: #facb00;
+}

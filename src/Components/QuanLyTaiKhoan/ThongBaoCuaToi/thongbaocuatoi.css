@@ -1,0 +1,27 @@
+.thong_tin_tai_khoan{
+  width: 973px;
+}
+.container-info_tai_khoan{
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.thong_bao-items{
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  /* background-color: rgb(239, 239, 239); */
+}
+.thong_bao .thong_bao-items:nth-child(2n-1){
+  background-color: rgb(239, 239, 239);
+  border-radius: 3px;
+}
+.date-thong_bao{
+  min-width: 120px;
+  margin-right: 20px;
+  font-size: 13px;
+}
+.content-thong_bao-item{
+  width: 700px;
+  font-size: 13px;
+}

@@ -1,0 +1,49 @@
+.items_da_xem{
+  width: 1270px !important;
+  margin: auto;
+  margin-top: 20px;
+}
+.san_pham_da_xem > h3{
+
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.link_item{
+  width: 20%;
+}
+.container-dien_thoai >h4{
+  color: #3195f9;  
+font-weight: bold;
+padding-top: 20px;
+margin-left: 30px;
+margin-bottom: 15px;
+
+}
+.link_item{
+  padding: 16px;
+  color: black;
+}
+.link_item:hover{
+  color: unset;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.link_item > .title_item>div{
+  width: '200px';
+  height: '200px';
+  margin-bottom: 12px;
+  text-align: center;
+}
+.link_item >.title_item{
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.price{
+  font-weight: bold;
+  font-size: 20px;
+}

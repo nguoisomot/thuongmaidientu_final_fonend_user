@@ -1,0 +1,47 @@
+.thong_tin_tai_khoan{
+  width: 973px;
+}
+.container-info_tai_khoan{
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.item-list_love{
+  width: 971px;
+  height: 173px;
+  padding: 20px 70px 20px 15px ;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+.item_inner{
+  display: flex;
+  justify-content: start;
+}
+.item_inner>a{
+  display: inline-block;
+  margin: 0 25px;
+}
+.item_inner>a>img{
+  width: 130px;
+  height: 130px;
+}
+.item_info{
+  margin-right: 50px;
+}
+.container-btn_delete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_delete{
+  color: #189eff;
+  border: none;
+  background-color: unset;
+}
+.btn_delete:focus{
+  outline: none;
+}

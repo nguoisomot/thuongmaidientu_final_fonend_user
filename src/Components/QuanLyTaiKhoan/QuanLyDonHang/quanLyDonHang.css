@@ -1,0 +1,91 @@
+.thong_tin_tai_khoan{
+  width: 973px;
+}
+.container-info_tai_khoan{
+  background-color: white;
+  border-radius: 5px;
+  /* padding: 0; */
+}
+.order-tai_khoan{
+  padding: 0;
+}
+/*  */
+.order-header{
+  display: flex;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+.order-header>.item{
+  padding: 20px 15px;
+  font-size: 14px;
+}
+.order-header>.item>.title{
+  font-weight: 300;
+}
+.order-header>.item>.value{
+  font-weight: 500;
+  margin-top: 5px;
+}
+.order-header>.item>.value>a{
+  color: rgb(0, 127, 240);
+  cursor: pointer;
+}
+.order-info>h3{
+  padding: 10px 15px;
+}
+.order-info>.product{
+  display: flex;
+    padding: 15px 15px;
+}
+.order-info>.product>img{
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+} 
+.order-info>.product>div>.name_item{
+  font-size: 14px;
+}
+.order-info>.product>div>.name_item>p{
+  
+}
+.order-control{
+  text-align: end;
+  padding: 15px;
+}
+.container-info_tai_khoan >.order-control>button{
+  width: 177px;
+  line-height: 42px;
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(253, 216, 53);
+  text-align: center; 
+  font-weight: bold;
+  font-size: 14px;
+}
+.container-info_tai_khoan >.order-control>button:focus{
+  outline: none;
+}
+.container-info_tai_khoan >.order-control>button:hover{
+  background-color: rgb(255, 208, 0);
+
+}
+.hoa_don{
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.hoa_don>table>thead>tr>th{
+  width: 130px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(244, 244, 244);
+}
+.hoa_don>table>tbody>tr>td:nth-child(1){
+  color:rgb(0, 127, 240) ;
+  cursor: pointer;
+}
+.hoa_don>table>tbody>tr>td{
+  width: 100px;
+  padding: 20px 15px;
+  font-size: 13.5px;
+}
